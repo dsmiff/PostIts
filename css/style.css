@@ -1,0 +1,50 @@
+h1 {
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+#title{
+    flex-direction: column;
+    text-align: center;
+    color: #10788e;
+    padding-bottom: 4px;
+}
+
+#button {
+    padding-bottom: 4px;
+}
+
+.workspace{
+    background: #0001;
+    border: grey;
+    border-size: 2px;
+    border-style:solid;
+    border-color:grey;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+span {
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.note {
+    border-style: solid;
+    border-color: grey;
+    border-width: thin;
+    font-family: monospace;   
+}
+    
+span.note{
+    width: 75px;
+    height: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 5px;
+    display: table-caption;
+    background-color: #bbbb02;
+}
