@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <title>PostIts</title>
+    <script src="http://code.jquery.com/jquery-1.4.4.js"></script>
+  </head>
+
+  <body onkeypress="keypress(event)">
   <link href="css/style.css" rel="stylesheet">
 
   <div id="title">
     <h1> PostIt Board </h1>
     <button id="button" onclick="openBox()">Post post-it! </button>
   </div>
-
+  
   <div class="workspace">
     <span id="messages"> </span>
   </div>
 
   <script src="js/postIt.js"></script>
-</body>
+  </body>
 </html>
