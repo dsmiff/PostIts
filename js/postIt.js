@@ -1,3 +1,5 @@
+document.addEventListener("keydown", keypress, false);
+
 function myFunction() {
     document.getElementById("demo").innerHTML = "Paragraph changed.";
 };
@@ -7,9 +9,10 @@ function alertWindow() {
 
 function openBox() {
     var message = prompt("Please provide a post-it", "Reply to emails!");
+    var pinCode = '<img id="pin" src="pin.png">';
     if (message != null) {
 	document.getElementById("messages").innerHTML +=
-	    '<span class="note">'+message+'    </span>';
+	    '<span class="note"> <p>'+message+'</p>'+pinCode+'</span>';
 	validate(message);
     }
 }
@@ -25,4 +28,4 @@ function keypress(event) {
 	openBox()
     }
 }
-document.addEventListener("keydown", keypress, false);
+
