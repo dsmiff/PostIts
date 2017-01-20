@@ -9,7 +9,7 @@ function openBox() {
     var message = prompt("Please provide a post-it", "Reply to emails!");
     if (message != null) {
 	document.getElementById("messages").innerHTML +=
-	    '<span class="note">'+message+'</span>';
+	    '<span class="note">'+message+'    </span>';
 	validate(message);
     }
 }
